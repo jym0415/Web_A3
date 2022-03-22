@@ -76,7 +76,7 @@ li,ul{list-style: none;}
 /*content*/
 
 #content > div {width: 33.333%;}
-.tab h3{font-size: 20px;
+.tab h3{font-size: 18px;
         line-height: 3;
         align-items: center;
         padding: 0 10px;
@@ -87,7 +87,7 @@ li,ul{list-style: none;}
     display: none;
 } 
 #notice li a{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     overflow: hidden;
     width: 230px;
@@ -99,8 +99,9 @@ li,ul{list-style: none;}
     display: flex;
     justify-content: space-between;
     width: 350px;
+    line-height: 2;
 }
-#notice span{font-size: 18px;
+#notice span{font-size: 16px;
    }
 
 
@@ -129,5 +130,8 @@ line-height: 3;}
     text-align: center;
     line-height: 3;
     left: 0; right: 0;
-    height: 300px; width: 400px;}
-.popup button{padding: 10px;}
+    top: 0; bottom: 0;
+    background-color: white;
+    margin: auto;
+    height: 200px; width: 400px;}
+.popup button{padding:0 10px;}
