@@ -122,3 +122,12 @@ li,ul{list-style: none;}
 .ftbox{width: 80%;}
 .ftbox p{margin-left: 30%;
 line-height: 3;}
+
+/*popup*/
+.popup{
+    border: 1px solid black;
+    text-align: center;
+    line-height: 3;
+    left: 0; right: 0;
+    height: 300px; width: 400px;}
+.popup button{padding: 10px;}

@@ -19,4 +19,12 @@ $('.tab h3').click(function(){
     $(this).parent().addClass('on');
 })
 
+$('#trigger').click(function(){
+  $('.popup').removeClass('d-none');
+});
+$('.popup button').click(function(){
+  $('.popup').addClass('d-none');
+
+})
+
 })
