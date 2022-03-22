@@ -19,6 +19,4 @@ $('.tab h3').click(function(){
     $(this).parent().addClass('on');
 })
 
-
-
 })
